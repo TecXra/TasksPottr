@@ -1,0 +1,737 @@
+html,
+body
+{
+	height: 100%;
+}
+body, *
+{
+	font-family: 'Poppins';
+	margin: 0;
+	padding: 0;
+}
+.navbar
+{
+	padding: 0px;
+}
+.bg-base
+{
+	background-color: #fb8913;
+	/*height: 243px;*/
+}
+.navbar-light .navbar-nav .nav-link,
+.nav-link
+{
+	color: #fff;
+}
+.register-list-btn
+{
+	font-weight: bold;
+}
+.post-project-btn
+{
+	/*	width: 184px;
+	height: 63px;*/
+	background:#fff;
+	border-radius:4px;
+	border: none;
+	padding:6px !important;
+	text-transform:uppercase;
+	color:#000;
+	font-weight:normal;
+	font-size:11px;	
+}
+.post-project-btn .nav-link
+{
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+/*slide container content*/
+
+.slide .container .content h1{
+	font-weight: bold !important;
+	font-size: 4vw !important;
+	/*padding: 20px 0 !important;*/
+	color: #fff !important;
+	letter-spacing: 3px;
+	z-index: 1000 !important;
+}
+.slide .container p{
+	font-size: 1.5vw;
+	line-height: 1.7em;
+	letter-spacing: 1px;
+	color: #fff;
+	z-index: 1000;
+}
+.slider{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	transition: all .3s;
+	perspective: 900px;
+	transform-style: preserve-3d;
+}
+.slider .previous, .slider .next{
+	font-family: "FontAwesome";
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	color: white;
+	padding: 20px;
+	text-decoration: none;
+	left: -100px;
+	margin-top: -34px;
+	transition: all .3s;
+	opacity: 0;
+	z-index: 10000;
+}
+.slider .next{
+	right: -100px;
+	content: "\f054";
+	left: auto;
+}
+.slider:hover .previous, .slider:hover .next{
+	opacity: 1;
+}
+.slider:hover .previous{
+	left: 0;
+}
+.slider:hover .next{
+	right: 0;
+}
+.slider .slides{
+	height: 100%;
+}
+.slide{
+	/*padding: 10%;*/
+	width: 100vw;
+	/*text-align: center;*/
+	position: absolute;
+	transform: scale(0.5,0.5);
+	opacity: 0;
+	transition: all .3s;
+}
+
+.slide.slide-one{
+	background: #fb8913;
+	color: white;
+	background-image: url('../images/slider/image-one.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slide.slide-two{
+	padding: 120px 0px 30px 0px;
+	background: #fb8913;
+	color: white;
+	background-image: url('../images/slider/image-two.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slide.slide-three{
+	padding: 120px 0px 30px 0px;
+	background: #fb8913;
+	color: white;
+	background-image: url('../images/slider/image-three.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slide.slide-four{
+	padding: 120px 0px 30px 0px;
+	background: #fb8913;
+	/*edb99b*/
+	color: white;
+	background-image: url('../images/slider/image-four.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slide.slide-one .container .content
+{
+	padding: 140px 0px 60px 0px;
+}
+.overlay
+{
+	background-color: rgba(0,0,0,0.4);
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.slide.active{
+	z-index: 10;
+	left: 0;
+	opacity: 1;
+	transform: scale(1,1);
+}
+
+.slide.inactiveLeft{
+	left: -100vw;
+	z-index: 11;
+}
+.slide.inactiveRight{
+	left: 100vw;
+	z-index: 11;
+}
+.slide:after{
+	/*content: attr(data-icon);
+	font-family: "FontAwesome";
+	font-size: 15vw;
+	position: absolute;
+	bottom: -8vw;
+	left: 0;
+	opacity: 0.3;*/
+}
+.hire-btn
+{
+	border: solid 2px #fb8913;
+	background: #fb8913;
+	color: #fff;
+	font-size: 1.3vw;
+	font-weight: bold;
+	padding: 10px;
+	margin-top: 20px;
+	display: inline-block;
+	transition: all .3s;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: relative;
+}
+.hire-btn:hover,
+.work-btn:hover
+{
+	/*border: 2px solid;*/
+	/*background: rgba(255, 255, 255, 0.2);*/
+	color: #fff;
+	text-decoration: none;
+}
+.hire-btn:after,
+.work-btn:after,
+.project-upload-btn:after,
+.taskSpottr-enterprise-container .contact-us-btn:after
+{
+	font-family: "Font Awesome 5 Free";
+	content: "\f35a";
+	margin-left: -10px;
+	transition: all .3s;
+	opacity: 0;
+}
+.hire-btn:hover:after,
+.work-btn:hover:after,
+.project-upload-btn:hover:after,
+.taskSpottr-enterprise-container .contact-us-btn:hover:after
+{
+	margin-left: 10px;
+	opacity: 1;
+}
+.work-btn
+{
+	border: solid 2px;
+	color: #fff;
+	font-size: 1.3vw;
+	font-weight: bold;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 10px;
+	display: inline-block;
+	transition: all .3s;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	position: relative;
+}
+/*.work-btn:hover
+{
+	border: 2px solid #fb8913;
+	background: #fb8913;
+	color: #fff;
+	text-decoration: none;
+	}*/
+/*.slide a{
+	color: inherit;
+	border: 2px solid;
+	padding: 10px;
+	font-size: 1.3vw;
+	margin-top: 20px;
+	display: inline-block;
+	transition: all .3s;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	position: relative;
+	}*/
+	.slide a:hover{
+		/*background: rgba(255, 255, 255, 0.2);
+		border: 2px solid transparent;
+		text-decoration: none;
+		letter-spacing: 2px;
+		padding-right: 30px;*/
+	}
+	.slide a:after{
+	/*font-family: "Font Awesome 5 Free";
+	content: "\f095";
+	position: absolute;
+	margin-left: -10px;
+	transition: all .3s;
+	opacity: 0;*/
+}
+.slide a:hover:after{
+	/*margin-left: 10px;
+	opacity: 1;*/
+}
+.slider .bullets{
+	/*text-align: center;*/
+	/*padding-left: 10%;*/
+	/*position: absolute;*/
+	/*bottom: 40px;*/
+	/*width: 100%;*/
+}
+.slider .bullets .bullet{
+	position: relative;
+	display: inline-block;
+	background: rgba(255,255,255,.8);
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	z-index: 14;
+	margin: 0 5px;
+	cursor: pointer;
+	border: 2px solid transparent;
+	transition: all .3s;
+}
+.slider .bullets .bullet.active{
+	background: #fb8913;
+	/*background: rgba(255,255,255,.4);*/
+}
+.slider .bullets .bullet:hover{
+	border: 2px solid rgba(255,255,255,.8);
+	background: transparent;
+}
+.cost-label
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*margin-bottom: 10px;*/
+}
+.cost-label-text
+{
+	margin-right: 5px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+.cost-label-cost
+{
+	height: 65px;
+	width: 65px;
+	border-radius: 50%;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	background: #fb8913;
+}
+
+/* work process */
+.work-process-container
+{
+	background-color: #f7f7f7;
+}
+.work-process-container p,
+.work-process-container .media .media-body
+{
+	font-size: 1.1rem;
+}
+
+/* audience favorites */
+.audience-favorites-heading
+{
+	font-weight: bold;
+}
+.audience-favorites-description
+{
+	letter-spacing: 0.5px;
+	word-spacing: 2px;
+	font-size: 1.5rem;
+}
+.overlay-image-container {
+	position: relative;
+	width: 100%;
+}
+.overlay-image-container img {
+	border: solid 2px #fb8913;
+	border-radius: 3px;
+	display: block;
+	margin-bottom: 5vh;
+	width: 100%;
+	height: auto;
+}
+
+.overlay-image-container .image-overlay {
+	position: absolute;
+	top: 10%;
+	bottom: 10%;
+	left: 5%;
+	right: 0;
+	height: 80%;
+	width: 90%;
+	opacity: 0;
+	transition: .5s ease;
+	/*background-color: rgba(0,0,0,0.7);*/
+	background-color: #edb99b;
+}
+.text {
+	width: 100%;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	opacity: 0;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.overlay-image-container .text .project-title
+{
+	color: #fff;
+	font-weight: bold;
+	font-size: 1rem;
+}
+.overlay-image-container .text .project-price
+{
+	color: #fff;
+	font-size: 0.9rem;
+}
+.overlay-image-container .text .project-upload-btn
+{
+	font-size: 0.7rem;
+	line-height: 6rem;
+	font-weight: 500;
+	border: solid;
+	padding: 0.5rem;
+	text-decoration: none;
+	color: #fff;
+	/*display: inline-block;*/
+	transition: all .3s;
+	/*position: relative;*/
+}
+
+.overlay-image-container:hover .image-overlay
+{
+	opacity: 0.9;	
+}
+.overlay-image-container:hover .text
+{
+	opacity: 1;
+}
+
+
+
+
+
+
+
+/*Categories Section*/
+.Categories-container,
+.job-categories-container
+{
+	/*background-color: rgba(0,0,0,0.5);*/
+	background-color: #f7f7f7;
+}
+.Categories-container h2
+{
+	margin-bottom: 30px;
+}
+.Categories-container p
+{
+	overflow-wrap: break-word;
+}
+.Categories-container .category
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+.taskSpottr-api-container
+{
+	background-image: url('../images/network.png');	
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	background-size: 46%;
+	background-blend-mode: overlay;
+}
+.taskSpottr-enterprise-container
+{
+	background-image: url('../images/laptop.png');	
+	background-repeat: no-repeat;
+	background-position: 93% 50%;
+	background-size: 40%;
+	background-blend-mode: overlay;	
+}
+
+.taskSpottr-api-container,
+.taskSpottr-enterprise-container
+{
+	background-color: #cecece;
+	padding: 3rem 1rem 3rem 1rem;
+}
+.taskSpottr-api-container a,
+.taskSpottr-enterprise-container a
+{
+	background-color: #fb8913;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+}
+.taskSpottr-api-container h6,
+.taskSpottr-enterprise-container h6
+{
+	color: #fb8913;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+.taskSpottr-api-container .view-documentation-btn:before
+{
+	font-family: "Font Awesome 5 Free";
+	content: "\f359";
+	/*position: absolute;*/
+	margin-right: -10px;
+	transition: all .3s;
+	opacity: 0;
+}
+.taskSpottr-api-container .view-documentation-btn:hover:before
+{
+	margin-right: 10px;
+	opacity: 1;
+}
+
+/* footer */
+footer
+{
+	background-color: #242424;
+}
+footer h3
+{
+	color: #fff;
+	font-weight: bold;
+}
+footer ul
+{
+	list-style-type: none;
+	color: #fff;
+}
+footer ul li
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+footer ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+footer ul li a:hover
+{
+	text-decoration: none;
+	color: #fff;
+}
+footer ul li .store-image
+{
+	width: 60%;
+}
+footer ul li .footer-logo
+{
+	width: 85%;
+}
+.copyright-container
+{
+	color: #fff;
+}
+
+/* ----------------------------------- */
+/* Create Project Page CSS Starts Here */
+/* ----------------------------------- */
+
+.top-bg,
+.form-top-container
+{
+	background-color: #fb8913;
+}
+.top-bg h2
+{
+	color: #fff;
+}
+.top-bg p
+{
+	color: #fff;
+	font-size: 1.1rem;
+}
+.form-container .form-column,
+.form-top-container .form-column
+{
+	background-color: #fff;
+	box-shadow: 0px 4px 3px rgba(0,0,0,1.7);
+}
+.form-control
+{
+	border-radius: 0px;
+}
+.form-control:focus
+{
+	border-color: transparent;
+	outline: none;
+	box-shadow: 0px 0px 5px rgba(251,137,19,0.8);
+	/*box-shadow: 0 0 0 0.2rem #FB8913;*/
+}
+.form-container p
+{
+	color: #000;
+	font-size: 0.9rem;
+}
+.form-container p.form-input-lable
+{
+	color: #000;
+	font-size: 1rem;
+}
+.skill-name
+{
+	border: solid 1px darkgrey;
+	border-radius: 5px;
+	padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+	margin-right: 1rem;
+}
+.project-payment-type-container .media-body
+{
+	font-size: 0.8rem;
+	/*font-weight: bold;*/
+}
+.project-payment-type-container h5
+{
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+
+.project-payment-type-container h6
+{
+	font-size: 0.8rem;
+	/*font-weight: bold;*/
+	/*color: #fb8913;*/
+}
+.project-payment-type-container del
+{
+	font-weight: bold;
+	color: #000;
+}
+.post-project-btn
+{
+	color: white;
+	background-color: #fb8913;
+	padding: 0.7rem 2.9rem 0.7rem 2.9rem;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-decoration: none;
+	border-radius: 0px;
+}
+
+
+
+.primary-color
+{
+	color: #fb8913;
+}
+.ribbon
+{
+	background: #fb8913;
+	color: #fff;
+	padding: 0rem 0.9rem;
+	font-size: 0.8rem;
+	font-weight: bold;
+	position: absolute;
+	right: 0.5rem;
+	top: 0.5rem;
+}
+/* checkbox style */
+/* The container */
+.checkbox-container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #fff;
+	border: solid 2px #fb8913;
+	border-radius: 8px;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+	background-color: #fb8913;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
