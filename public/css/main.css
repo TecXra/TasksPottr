@@ -27,7 +27,7 @@ body, *
 {
 	font-weight: bold;
 }
-.post-project-btn
+.create-project-btn
 {
 	/*	width: 184px;
 	height: 63px;*/
@@ -40,7 +40,7 @@ body, *
 	font-weight:normal;
 	font-size:11px;	
 }
-.post-project-btn .nav-link
+.create-project-btn .nav-link
 {
 	color: #000;
 }
@@ -615,6 +615,11 @@ footer ul li .footer-logo
 	padding: 0.2rem 1.5rem 0.2rem 1.5rem;
 	margin-right: 1rem;
 }
+.project-payment-type-container .media
+{
+	border-radius: 3px;
+}
+
 .project-payment-type-container .media-body
 {
 	font-size: 0.8rem;
@@ -641,13 +646,30 @@ footer ul li .footer-logo
 {
 	color: white;
 	background-color: #fb8913;
-	padding: 0.7rem 2.9rem 0.7rem 2.9rem;
+	padding: 0.3rem 1rem 0.3rem 1rem;
 	font-weight: bold;
 	font-size: 1.5rem;
 	text-decoration: none;
 	border-radius: 0px;
 }
-
+.post-project-btn:hover
+{
+	text-decoration: none;
+	color: #fff;
+}
+.post-project-btn:after
+{
+	font-family: "Font Awesome 5 Free";
+	content: "\f35a";
+	margin-left: -10px;
+	transition: all .3s;
+	opacity: 0;
+}
+.post-project-btn:hover:after
+{
+	margin-left: 10px;
+	opacity: 1;
+}
 
 
 .primary-color
@@ -668,7 +690,7 @@ footer ul li .footer-logo
 /* checkbox style */
 /* The container */
 .checkbox-container {
-	display: block;
+	/*display: block;*/
 	position: relative;
 	padding-left: 35px;
 	margin-bottom: 12px;
@@ -746,4 +768,8 @@ input[type="file"] {
 	padding: 6px 12px;
 	cursor: pointer;
 	border-radius: 7px;
+}
+.active-class
+{
+	border: solid 2px #FB8913;
 }

@@ -55,7 +55,7 @@
 					</li>
 				</ul>
 				<ul class="my-auto">
-					<li class="nav-item btn post-project-btn" >
+					<li class="nav-item btn create-project-btn" >
 						<a class="nav-link" href="/create-project" target="_blank">POSTA ETT PROJEKT</a>
 					</li>
 				</ul>

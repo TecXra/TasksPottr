@@ -63,14 +63,14 @@
 					Detect Language. Dansk. If we are wrong <a href="#">Click Here</a>
 				</p>
 				<div class="border">
-					<div class="row py-2 mx-0" style="border: dashed 1px;">
-						<div class="col-lg-4 text-center">
+					<div class="row py-2 mx-0" style="border: dashed 1px grey;">
+						<div class="col-md-4 text-center">
 							<label for="file-upload" class="custom-file-upload mb-0">
 								<i class="fas fa-plus-circle"></i> Upload Files
 							</label>
 							<input id="file-upload" type="file"/>
 						</div>
-						<div class="col-lg-8 pl-0">
+						<div class="col-md-8">
 							<p class="mb-0">
 								Drag & drop any images or documents that might be helpful in explaining your project brief here.
 							</p>
@@ -108,7 +108,7 @@
 				<p class="mt-2 mb-1 font-weight-bold form-input-lable">How would you like to get it done?</p>
 				<div class="row project-payment-type-container">
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
-						<div class="media border px-3 py-4">
+						<div class="media px-3 py-4 active-class">
 							<span class="ribbon"> Most Popular </span>
 							<i class="primary-color fas fa-tv fa-lg mr-2 mt-2"></i>
 							<div class="media-body">
@@ -130,7 +130,7 @@
 				<p class="mb-1 font-weight-bold form-input-lable">How would you want to pay?</p>
 				<div class="row project-payment-type-container">
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
-						<div class="media border px-3 py-4">
+						<div class="media px-3 py-4 active-class">
 							<i class="primary-color fas fa-lock fa-lg mr-2 mt-2"></i>
 							<div class="media-body">
 								<h5 class="mt-0">Pay Fixed Project</h5>
@@ -171,7 +171,7 @@
 				<p class="mt-2 mb-1 font-weight-bold form-input-lable">Do you need a helping hand?</p>
 				<div class="row project-payment-type-container">
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-2">
-						<div class="media border px-3 py-4">
+						<div class="media px-3 py-4 active-class">
 							<i class="primary-color fas fa-tv fa-lg mr-2 mt-2"></i>
 							<div class="media-body">
 								<h5 class="mt-0">Standard Project</h5>
@@ -199,8 +199,8 @@
 				</p>
 				<div class="border py-2 mb-3" style="box-shadow: 0px 0px 3px rgba(0, 0, 0, 1);">
 					<div class="row mx-0">
-						<div class="col-md-1 text-center py-2">
-							<label class="checkbox-container">
+						<div class="col-md-1 text-center">
+							<label class="checkbox-container mt-n2">
 								<input type="checkbox">
 								<span class="checkmark"></span>
 							</label>
@@ -218,7 +218,7 @@
 				</div>
 				<div class="border py-2 mb-3" style="box-shadow: 0px 0px 3px rgba(0, 0, 0, 1);">
 					<div class="row mx-0">
-						<div class="col-md-1 text-center py-2">
+						<div class="col-md-1 text-center">
 							<label class="checkbox-container">
 								<input type="checkbox">
 								<span class="checkmark"></span>
@@ -236,7 +236,7 @@
 					</div>
 				</div>
 				<p class="mt-2 mb-1 font-weight-bold form-input-lable">Do you need a helping hand?</p>
-				<div class="border py-3">
+				<div class="py-3 active-class">
 					<div class="row">
 						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-5 text-center py-3">
 							<i class="primary-color fas fa-tv fa-3x"></i>
