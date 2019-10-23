@@ -63,7 +63,19 @@
 					Detect Language. Dansk. If we are wrong <a href="#">Click Here</a>
 				</p>
 				<div class="border">
-					<input type="file" class="form-control">
+					<div class="row py-2 mx-0" style="border: dashed 1px;">
+						<div class="col-lg-4 text-center">
+							<label for="file-upload" class="custom-file-upload mb-0">
+								<i class="fas fa-plus-circle"></i> Upload Files
+							</label>
+							<input id="file-upload" type="file"/>
+						</div>
+						<div class="col-lg-8 pl-0">
+							<p class="mb-0">
+								Drag & drop any images or documents that might be helpful in explaining your project brief here.
+							</p>
+						</div>
+					</div>
 					<table class="table">
 						<tr>
 							<td class="text-center">test.pdf</td>

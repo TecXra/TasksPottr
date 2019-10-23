@@ -735,3 +735,15 @@ footer ul li .footer-logo
 	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
+
+/* custom input type file css */
+input[type="file"] {
+	display: none;
+}
+.custom-file-upload {
+	border: 1px solid #ccc;
+	display: inline-block;
+	padding: 6px 12px;
+	cursor: pointer;
+	border-radius: 7px;
+}
