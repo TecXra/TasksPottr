@@ -12,6 +12,20 @@
 There are two homepages named Index.html and index2.html.
 Index.html is just a simple homepage and index2.html have little hover effects on buttons and links.
 
+
+## Download & Run
+
+```js
+
+// Open CMD and type
+
+git clone https://github.com/TecXra/TasksPottr.git
+
+php artisan serve
+
+```
+
+### Important Points
 [Custom JS Code for slider](public/js/slider.js)
 
 - [Image Uploading Plugin](https://fineuploader.com/index.html).
