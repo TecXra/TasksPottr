@@ -48,7 +48,7 @@ body, *
 	background:#fff;
 	border-radius:4px;
 	border: none;
-	padding:6px !important;
+	padding:2px !important;
 	text-transform:uppercase;
 	color:#000;
 	font-weight:normal;
@@ -56,8 +56,19 @@ body, *
 }
 .create-project-btn .nav-link
 {
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
 	color: #000;
 }
+.create-project-btn .nav-link:hover
+{
+	color: #fff;
+	background-color: #fb8913;
+}
+
 /* homepage header create project button ends here */
 
 /* project post button styles starts here */
@@ -83,8 +94,13 @@ body, *
 {
 	font-family: "Font Awesome 5 Free";
 	content: "\f35a";
-	margin-left: -10px;
-	transition: all .3s;
+	margin-left: -25px;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+	/*transition: all .3s;*/
 	opacity: 0;
 }
 .hover-right-arrow-effect:hover:after
@@ -96,8 +112,13 @@ body, *
 {
 	font-family: "Font Awesome 5 Free";
 	content: "\f359";
-	margin-right: -10px;
-	transition: all .3s;
+	margin-right: -25px;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+	/*transition: all .3s;*/
 	opacity: 0;
 }
 .hover-left-arrow-effect:hover:before
@@ -131,7 +152,12 @@ body, *
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	transition: all .3s;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+	/*transition: all .3s;*/
 	perspective: 900px;
 	transform-style: preserve-3d;
 }
@@ -146,7 +172,12 @@ body, *
 	text-decoration: none;
 	left: -100px;
 	margin-top: -34px;
-	transition: all .3s;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+	/*transition: all .3s;*/
 	opacity: 0;
 	z-index: 10000;
 }
@@ -178,7 +209,12 @@ body, *
 	position: absolute;
 	transform: scale(0.5,0.5);
 	opacity: 0;
-	transition: all .3s;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+	/*transition: all .3s;*/
 }
 .slide.slide-one
 {
@@ -243,7 +279,12 @@ body, *
 	padding: 10px;
 	margin-top: 20px;
 	display: inline-block;
-	transition: all .3s;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+	/*transition: all .3s;*/
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	position: relative;
@@ -264,7 +305,12 @@ body, *
 	margin-top: 20px;
 	margin-left: 10px;
 	display: inline-block;
-	transition: all .3s;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+	/*transition: all .3s;*/
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	position: relative;
@@ -280,7 +326,12 @@ body, *
 	margin: 0 5px;
 	cursor: pointer;
 	border: 2px solid transparent;
-	transition: all .3s;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+	/*transition: all .3s;*/
 }
 .slider .bullets .bullet.active{
 	background: #fb8913;
@@ -355,15 +406,22 @@ body, *
 
 .overlay-image-container .image-overlay {
 	position: absolute;
-	top: 10%;
-	bottom: 10%;
-	left: 5%;
+	top: 2px;
+	bottom: 0;
+	left: 2px;
 	right: 0;
-	height: 80%;
-	width: 90%;
+	height: calc(100% - 4px);
+	width: calc(100% - 4px);
+	border-radius: 2px;
 	opacity: 0;
-	transition: .5s ease;
-	background-color: #edb99b;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	/*transition: .5s ease;*/
+	background-color: rgba(0,0,0,0.4);
+	/*background-color: #edb99b;*/
 }
 .overlay-text {
 	width: 100%;
@@ -401,7 +459,11 @@ body, *
 	transition: all .3s;
 	/*position: relative;*/
 }
-
+.overlay-image-container .overlay-text .project-upload-btn:hover
+{
+	background-color: #fb8913;
+	border: solid #fb8913;
+}
 .overlay-image-container:hover .image-overlay
 {
 	opacity: 0.9;	
@@ -421,6 +483,7 @@ body, *
 .Categories-container,
 .job-categories-container
 {
+	/*background-color: rgba(0,0,0,0.5);*/
 	background-color: #f7f7f7;
 }
 .Categories-container h2
@@ -469,7 +532,15 @@ body, *
 	color: #fff;
 	font-weight: bold;
 	text-decoration: none;
-	padding: 0.3rem 1.2rem 0.3rem 1.2rem;
+	padding: 0.3rem 1rem 0.3rem 1rem;
+	transition: all .1s;
+}
+.taskSpottr-api-container a:hover,
+.taskSpottr-enterprise-container a:hover
+{
+	background: transparent;
+	color: #fb8913;
+	border: solid 2px;
 }
 .taskSpottr-api-container h6,
 .taskSpottr-enterprise-container h6
@@ -500,15 +571,20 @@ footer ul li
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-footer ul li a
+.footer-link
 {
 	text-decoration: none;
 	color: #fff;
+	/*-webkit-transition: all .25s ease;*/
+	/*-moz-transition: all .25s ease;*/
+	/*-ms-transition: all .25s ease;*/
+	/*-o-transition: all .25s ease;*/
+	/*transition: all .25s ease;*/
 }
-footer ul li a:hover
+.footer-link:hover
 {
-	text-decoration: none;
-	color: #fff;
+	text-decoration: none !important;
+	color: #fb8913 !important;
 }
 footer ul li .store-image
 {
@@ -616,6 +692,7 @@ footer ul li .footer-logo
 .project-payment-type-container .media-body
 {
 	font-size: 0.8rem;
+	/*font-weight: bold;*/
 }
 .project-payment-type-container h5
 {
@@ -656,6 +733,7 @@ footer ul li .footer-logo
 	cursor: pointer;
 	user-select: none;
 	display: inline-block;
+	/*margin-top: -0.8rem;*/
 }
 
 /* Hide the browser's default checkbox */
@@ -732,9 +810,8 @@ footer ul li .footer-logo
 	cursor: pointer !important;
 	border: solid 1px #FB8913 !important;
 }
-/*-------------------------------*/
-/* File Uploader CSS Starts Here */
-/*-------------------------------*/
+
+/*------------------------*/
 #trigger-upload {
 	color: white;
 	background-color: #00ABC7;

@@ -7,6 +7,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## About Project
+
+There are two homepages named Index.html and index2.html.
+Index.html is just a simple homepage and index2.html have little hover effects on buttons and links.
+
+[Custom JS Code for slider](public/js/slider.js)
+
+- [Image Uploading Plugin](https://fineuploader.com/index.html).
+- [Select Box Library](https://harvesthq.github.io/chosen/).
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

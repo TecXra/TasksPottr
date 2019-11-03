@@ -7,19 +7,19 @@
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600%7CRoboto:300i,400,500" rel="stylesheet">
-	{{-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> --}}
+	<!-- <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'> -->
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-	<link rel="stylesheet" href="{{asset('css/fontawesome-all.css')}}">
-	<link rel="stylesheet" href="{{asset('css/themify-icons.css')}}">
+	<link rel="stylesheet" href='css/bootstrap.min.css'>
+	<link rel="stylesheet" href='css/fontawesome-all.css'>
+	<link rel="stylesheet" href='css/themify-icons.css'>
 
 	<!-- Owl carousel CSS -->
-	<link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
-	<link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
+	<link rel="stylesheet" href='css/owl.carousel.min.css'>
+	<link rel="stylesheet" href='css/owl.theme.default.min.css'>
 
 	<!-- Custom Css -->
-	<link rel="stylesheet" type="text/css" href="{{asset('css/main.css')}}">
+	<link rel="stylesheet" type="text/css" href='css/main-with-effects.css'>
 
 	<!-- Favicon -->
 	<link rel="icon" href="images/favicon.png">
@@ -32,7 +32,7 @@
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light py-2 primary-bg">
 		<div class="container">
-			<a class="navbar-brand" href="#"><img src="{{asset('images/logo.png')}}" alt="taskspottr"></a>
+			<a class="navbar-brand" href="#"><img src='images/logo.png' alt="taskspottr"></a>
 			<button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -63,10 +63,10 @@
 		</div>
 	</nav>
 	<div class="slider">
-		{{-- <div class="arrows">
+		<!-- <div class="arrows">
 			<a class="previous" href="#">&#xf053;</a>
 			<a class="next" href="#">&#xf054;</a>
-		</div> --}}
+		</div> -->
 		<div class="container">
 			<div class="slides">
 				<div class="slide active slide-one" data-icon="&#xf0ac;">
@@ -76,8 +76,8 @@
 							<h1> Anlita experter frilansare för <br/> alla jobb online </h1>
 							<p class="mb-0"> Miljontals småföretag använder taskpottr för att förvandla sina </p>
 							<p class="mb-0"> Ideer till verklighet </p>
-							<a href="#" class="hire-btn"> Jag vill anställa </a>
-							<a href="#" class="work-btn"> jag vill jobba </a>
+							<a href="#" class="hire-btn hover-right-arrow-effect"> Jag vill anställa </a>
+							<a href="#" class="work-btn hover-right-arrow-effect"> jag vill jobba </a>
 						</div>
 						<div class="d-flex bd-highlight mb-4">
 							<div class="bullets my-auto"> </div>
@@ -96,8 +96,8 @@
 							<h1> Anlita experter frilansare för <br/> alla jobb online </h1>
 							<p class="mb-0"> Miljontals småföretag använder taskpottr för att förvandla sina </p>
 							<p class="mb-0"> Ideer till verklighet </p>
-							<a href="#" class="hire-btn"> Jag vill anställa </a>
-							<a href="#" class="work-btn"> jag vill jobba </a>
+							<a href="#" class="hire-btn hover-right-arrow-effect"> Jag vill anställa </a>
+							<a href="#" class="work-btn hover-right-arrow-effect"> jag vill jobba </a>
 						</div>
 						<div class="d-flex bd-highlight mb-4">
 							<div class="bullets my-auto"> </div>
@@ -116,8 +116,8 @@
 							<h1> Anlita experter frilansare för <br/> alla jobb online </h1>
 							<p class="mb-0"> Miljontals småföretag använder taskpottr för att förvandla sina </p>
 							<p class="mb-0"> Ideer till verklighet </p>
-							<a href="#" class="hire-btn"> Jag vill anställa </a>
-							<a href="#" class="work-btn"> jag vill jobba </a>
+							<a href="#" class="hire-btn hover-right-arrow-effect"> Jag vill anställa </a>
+							<a href="#" class="work-btn hover-right-arrow-effect"> jag vill jobba </a>
 						</div>
 						<div class="d-flex bd-highlight mb-4">
 							<div class="bullets my-auto"> </div>
@@ -136,8 +136,8 @@
 							<h1> Anlita experter frilansare för <br/> alla jobb online </h1>
 							<p class="mb-0"> Miljontals småföretag använder taskpottr för att förvandla sina </p>
 							<p class="mb-0"> Ideer till verklighet </p>
-							<a href="#" class="hire-btn"> Jag vill anställa </a>
-							<a href="#" class="work-btn"> jag vill jobba </a>
+							<a href="#" class="hire-btn hover-right-arrow-effect"> Jag vill anställa </a>
+							<a href="#" class="work-btn hover-right-arrow-effect"> jag vill jobba </a>
 						</div>
 						<div class="d-flex bd-highlight mb-4">
 							<div class="bullets my-auto"> </div>
@@ -153,7 +153,7 @@
 		</div>
 	</div>
 
-	{{-- work process --}}
+	<!-- work process -->
 	<div class="container-fluid pt-5 pb-2 work-process-container">
 		<div class="container">
 			<h3 class="font-weight-bold">
@@ -172,7 +172,7 @@
 					</p>
 				</div>
 				<div class="col-md-12 col-sm-12 col-12 d-lg-none d-xl-none d-md-block d-sm-block d-block text-center">
-					<img src="/images/animated-work.png" style="width: 65%;">
+					<img src="images/animated-work.png" style="width: 65%;">
 				</div>
 
 				<div class="col-lg-6">
@@ -202,7 +202,7 @@
 					</div>
 				</div>
 				<div class="col-xl-6 col-lg-6 mt-xl-n4 mt-lg-n2 col-md-12 col-sm-12 col-12 d-lg-block d-xl-block d-md-none d-sm-none d-none text-center">
-					<img src="/images/animated-work.png" style="width: 85%;">
+					<img src="images/animated-work.png" style="width: 85%;">
 				</div>
 				<div class="col-lg-8">
 					<div class="media">
@@ -231,7 +231,7 @@
 	</div>
 
 
-	{{-- Audience Favorites Section --}}
+	<!-- Audience Favorites Section -->
 	<div class="container-fluid audience-favorites-container pt-5 pb-2">
 		<div class="container">
 			<h1 class="text-center audience-favorites-heading">
@@ -243,7 +243,7 @@
 			<div class="row">
 				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
 					<div class="overlay-image-container">
-						<img src="/images/audience-favorites/audience-favorites-one.png">
+						<img src="images/audience-favorites/audience-favorites-one.png">
 						<div class="image-overlay">
 						</div>
 						<div class="overlay-text">
@@ -255,7 +255,7 @@
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
 					<div class="overlay-image-container">
-						<img src="/images/audience-favorites/audience-favorites-two.png">
+						<img src="images/audience-favorites/audience-favorites-two.png">
 						<div class="image-overlay">
 						</div>
 						<div class="overlay-text">
@@ -267,7 +267,7 @@
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
 					<div class="overlay-image-container">
-						<img src="/images/audience-favorites/audience-favorites-three.png">
+						<img src="images/audience-favorites/audience-favorites-three.png">
 						<div class="image-overlay">
 						</div>
 						<div class="overlay-text">
@@ -279,7 +279,7 @@
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
 					<div class="overlay-image-container">
-						<img src="/images/audience-favorites/audience-favorites-four.png">
+						<img src="images/audience-favorites/audience-favorites-four.png">
 						<div class="image-overlay">
 						</div>
 						<div class="overlay-text">
@@ -293,7 +293,7 @@
 			<div class="row audience-favorites-container">
 				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
 					<div class="overlay-image-container">
-						<img src="/images/audience-favorites/audience-favorites-five.png">
+						<img src="images/audience-favorites/audience-favorites-five.png">
 						<div class="image-overlay">
 						</div>
 						<div class="overlay-text">
@@ -305,7 +305,7 @@
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
 					<div class="overlay-image-container">
-						<img src="/images/audience-favorites/audience-favorites-six.png">
+						<img src="images/audience-favorites/audience-favorites-six.png">
 						<div class="image-overlay">
 						</div>
 						<div class="overlay-text">
@@ -317,7 +317,7 @@
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
 					<div class="overlay-image-container">
-						<img src="/images/audience-favorites/audience-favorites-seven.png">
+						<img src="images/audience-favorites/audience-favorites-seven.png">
 						<div class="image-overlay">
 						</div>
 						<div class="overlay-text">
@@ -329,7 +329,7 @@
 				</div>
 				<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-12">
 					<div class="overlay-image-container">
-						<img src="/images/audience-favorites/audience-favorites-eight.png">
+						<img src="images/audience-favorites/audience-favorites-eight.png">
 						<div class="image-overlay">
 						</div>
 						<div class="overlay-text">
@@ -343,7 +343,7 @@
 		</div>
 	</div>
 
-	{{-- Categories Section --}}
+	<!-- Categories Section -->
 	<div class="container-fluid Categories-container pt-5 pb-5">
 		<div class="container">
 			<h2 class="text-center font-weight-bold Categories-heading">
@@ -366,16 +366,16 @@
 					<i class="far fa-flag fa-2x"></i><span class="mt-2">Banner Design</span>
 				</div>
 				<div class="col-xl-1 col-lg-1 col-md-2 col-sm-3 col-6 px-1 py-3 category">
-					<img src="/images/favicon.png" width="36px" height="32px"><span class="mt-2">Logo Design</span>
+					<img src="images/favicon.png" width="36px" height="32px"><span class="mt-2">Logo Design</span>
 				</div>
 				<div class="col-xl-1 col-lg-1 col-md-2 col-sm-3 col-6 px-1 py-3 category">
-					<img src="/images/photoshop-icon.png" width="36px" height="32px"><span class="mt-2">Photoshop</span>
+					<img src="images/photoshop-icon.png" width="36px" height="32px"><span class="mt-2">Photoshop</span>
 				</div>
 				<div class="col-xl-1 col-lg-1 col-md-2 col-sm-3 col-6 px-1 py-3 category">
-					<img src="/images/paint-brush.png" width="36px" height="32px"><span class="mt-2">Graphic Design</span>
+					<img src="images/paint-brush.png" width="36px" height="32px"><span class="mt-2">Graphic Design</span>
 				</div>
 				<div class="col-xl-1 col-lg-1 col-md-2 col-sm-3 col-6 px-1 py-3 category">
-					<img src="/images/hot-article.png" width="36px" height="32px"><span class="mt-2">Article Writing</span>
+					<img src="images/hot-article.png" width="36px" height="32px"><span class="mt-2">Article Writing</span>
 				</div>
 				<div class="col-xl-1 col-lg-1 col-md-2 col-sm-3 col-6 px-1 py-3 category">
 					<i class="fas fa-ghost fa-2x"></i><span class="mt-2">Ghost Writing</span>
@@ -450,7 +450,7 @@
 		</div>
 	</div>
 
-	{{-- job categories --}}
+	<!-- job categories -->
 	<div class="container-fluid job-categories-container pb-5 pt-3">
 		<div class="container">
 			<h2 class="text-center font-weight-bold job-categories-heading pb-3">
@@ -513,20 +513,20 @@
 		</div>
 	</div>
 
-	{{-- footer section --}}
+	<!-- footer section -->
 	<footer>
 		<div class="container pt-5">
 			<div class="row">
 				<div class="col-lg-3">
 					<ul>
-						<li class="mt-0"> <img src="/images/logo.png" class="footer-logo"> </li>
+						<li class="mt-0"> <img src="images/logo.png" class="footer-logo"> </li>
 						<li>
-							<a href="#">
+							<a href="#" class="footer-link">
 								<i class="fas fa-globe fa-lg mr-2"></i> English - US (International)
 							</a>
 						</li>
 						<li>
-							<a href="#">
+							<a href="#" class="footer-link">
 								<i class="fas fa-question-circle fa-lg mr-2"></i> Help & Support
 							</a>
 						</li>
@@ -537,16 +537,16 @@
 						TaskSpottr
 					</h3>
 					<ul>
-						<li><a href="#">Categories</a></li>
-						<li><a href="#">Projects</a></li>
-						<li><a href="#">Contests</a></li>
-						<li><a href="#">Freelancers</a></li>
-						<li><a href="#">Enterprice</a></li>
-						<li><a href="#">Preferred Freelancer</a></li>
-						<li><a href="#">Project Management</a></li>
-						<li><a href="#">Local Jobs</a></li>
-						<li><a href="#">Showcase</a></li>
-						<li><a href="#">API for Developers</a></li>
+						<li><a href="#" class="footer-link">Categories</a></li>
+						<li><a href="#" class="footer-link">Projects</a></li>
+						<li><a href="#" class="footer-link">Contests</a></li>
+						<li><a href="#" class="footer-link">Freelancers</a></li>
+						<li><a href="#" class="footer-link">Enterprice</a></li>
+						<li><a href="#" class="footer-link">Preferred Freelancer</a></li>
+						<li><a href="#" class="footer-link">Project Management</a></li>
+						<li><a href="#" class="footer-link">Local Jobs</a></li>
+						<li><a href="#" class="footer-link">Showcase</a></li>
+						<li><a href="#" class="footer-link">API for Developers</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-2">
@@ -554,13 +554,13 @@
 						About
 					</h3>
 					<ul>
-						<li><a href="#">About US</a></li>
-						<li><a href="#">How It Works</a></li>
-						<li><a href="#">Security</a></li>
-						<li><a href="#">Investor</a></li>
-						<li><a href="#">SiteMap</a></li>
-						<li><a href="#">Quotes</a></li>
-						<li><a href="#">News</a></li>
+						<li><a href="#" class="footer-link">About US</a></li>
+						<li><a href="#" class="footer-link">How It Works</a></li>
+						<li><a href="#" class="footer-link">Security</a></li>
+						<li><a href="#" class="footer-link">Investor</a></li>
+						<li><a href="#" class="footer-link">SiteMap</a></li>
+						<li><a href="#" class="footer-link">Quotes</a></li>
+						<li><a href="#" class="footer-link">News</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-2">
@@ -568,11 +568,11 @@
 						Terms
 					</h3>
 					<ul>
-						<li><a href="#">Privacy Policy</a></li>
-						<li><a href="#">Terms & Conditions</a></li>
-						<li><a href="#">Copyright Policy</a></li>
-						<li><a href="#">Code Of Conduct</a></li>
-						<li><a href="#">Fees & Charges</a></li>
+						<li><a href="#" class="footer-link">Privacy Policy</a></li>
+						<li><a href="#" class="footer-link">Terms & Conditions</a></li>
+						<li><a href="#" class="footer-link">Copyright Policy</a></li>
+						<li><a href="#" class="footer-link">Code Of Conduct</a></li>
+						<li><a href="#" class="footer-link">Fees & Charges</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-3">
@@ -582,14 +582,14 @@
 					<ul>
 						<li>
 							<a href="#">
-								<img src="/images/android-apple-store.png" class="store-image">
+								<img src="images/android-apple-store.png" class="store-image">
 							</a>
 						</li>
 						<li>
-							<a href="#"><i class="fab fa-facebook-square fa-2x mr-2"></i></a>
-							<a href="#"><i class="fab fa-twitter-square fa-2x mr-2"></i></a>
-							<a href="#"><i class="fab fa-instagram fa-2x mr-2"></i></a>
-							<a href="#"><i class="fas fa-rss-square fa-2x mr-2"></i></a>
+							<a href="#" class="footer-link"><i class="fab fa-facebook-square fa-2x mr-2"></i></a>
+							<a href="#" class="footer-link"><i class="fab fa-twitter-square fa-2x mr-2"></i></a>
+							<a href="#" class="footer-link"><i class="fab fa-instagram fa-2x mr-2"></i></a>
+							<a href="#" class="footer-link"><i class="fas fa-rss-square fa-2x mr-2"></i></a>
 						</li>
 					</ul>
 				</div>
@@ -610,13 +610,14 @@
 
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="{{asset('js/jquery-3.3.1.slim.min.js')}}"></script>
-	<script src="{{asset('js/popper.min.js')}}"></script>
-	<script src="{{asset('js/bootstrap.min.js')}}"></script>
-	<script src="{{asset('js/owl.carousel.min.js')}}"></script>
+	<script src='js/jquery-3.3.1.slim.min.js'></script>
+	<script src='js/popper.min.js'></script>
+	<script src='js/bootstrap.min.js'></script>
+	<script src='js/owl.carousel.min.js'></script>
 
 	<!-- custom JavaScript -->
-	<script src="{{asset('js/slider.js')}}"></script>
+	<!-- // <script src='js/custom.js'></script> -->
+	<script src='js/slider.js'></script>
 
 </body>
 </html>

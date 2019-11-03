@@ -19,6 +19,10 @@ Route::get('/', function () {
 	return view('pages.homepage');
 });
 
+Route::get('/home', function () {
+	return view('pages.homepage-with-effect');
+});
+
 Route::get('/create-project', function () {
 	return view('pages.create-project');
 });
