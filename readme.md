@@ -2,6 +2,7 @@
 
 There are two homepages named homepage.html and homepage-with-effect.html.
 homepage.html is just a simple homepage and homepage-with-effect.html have little hover effects on buttons and links.
+
 [Custom JS Code for slider](public/js/slider.js)
 
 
@@ -12,9 +13,7 @@ homepage.html is just a simple homepage and homepage-with-effect.html have littl
 // Open CMD and type
 
 git clone https://github.com/TecXra/TasksPottr.git
-
 cd TasksPottr
-
 php artisan serve
 
 // It will show development server. Open Browser and paste the URL.
